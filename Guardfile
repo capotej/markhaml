@@ -1,3 +1,4 @@
+#this is here cause guard needs at least a single guard to work
 guard 'compass' do
 end
 
