@@ -1,0 +1,6 @@
+elements = element*
+
+element = base_element "\n" / base_element
+
+base_element = x:[%a-zA-Z0-9]+ { return x.join('').replace('%','') }
+
